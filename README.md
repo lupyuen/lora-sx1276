@@ -10,6 +10,13 @@ Read the articles...
 
 - ["PineCone BL602 RISC-V Board Receives LoRa Packets"](https://lupyuen.github.io/articles/lora2)
 
+To add this driver to an existing BL602 / BL604 project:
+
+```bash
+cd bl_iot_sdk/components/3rdparty
+git submodule add https://github.com/lupyuen/lora-sx1276
+```
+
 # Connect BL602 to SX1276
 
 The pins are defined in [`include/sx1276.h`](include/sx1276.h)
